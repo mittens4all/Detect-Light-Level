@@ -1,0 +1,161 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "detect:light_level",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 0
+            },
+            "add": {
+              "component_groups": ["light_level:0"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 1
+            },
+            "add": {
+              "component_groups": ["light_level:1"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 2
+            },
+            "add": {
+              "component_groups": ["light_level:2"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 3
+            },
+            "add": {
+              "component_groups": ["light_level:3"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 4
+            },
+            "add": {
+              "component_groups": ["light_level:4"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 5
+            },
+            "add": {
+              "component_groups": ["light_level:5"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 6
+            },
+            "add": {
+              "component_groups": ["light_level:6"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 7
+            },
+            "add": {
+              "component_groups": ["light_level:7"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 8
+            },
+            "add": {
+              "component_groups": ["light_level:8"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 9
+            },
+            "add": {
+              "component_groups": ["light_level:9"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 10
+            },
+            "add": {
+              "component_groups": ["light_level:10"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 11
+            },
+            "add": {
+              "component_groups": ["light_level:11"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 12
+            },
+            "add": {
+              "component_groups": ["light_level:12"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 13
+            },
+            "add": {
+              "component_groups": ["light_level:13"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 14
+            },
+            "add": {
+              "component_groups": ["light_level:14"]
+            }
+          },
+          {
+            "filters": {
+              "test": "light_level",
+              "value": 15
+            },
+            "add": {
+              "component_groups": ["light_level:15"]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

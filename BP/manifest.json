@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "v1.0.0 - Pack by Mittens4all - Detect Light Level",
+        "name": "Detect Light Level",
+        "uuid": "c5860f2f-1558-4e47-9e65-8ca4201130df",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 80 ]
+    },
+    "modules": [
+        {
+            "description": "Behavior Pack",
+            "type": "data",
+            "uuid": "af2c7c0d-4041-41ec-a426-63894d7f4905",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "description": "Scripts Module",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "cbd7556f-2cdf-4e81-8216-4c99faf1e7bf",
+            "entry": "scripts/main.js",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [ 
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.18.0"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "mittens4all"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/mittens4all/",
+        "product_type": "addon"
+    }
+}
